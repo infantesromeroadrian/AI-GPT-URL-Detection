@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "urlfakedetector"
+version = "0.1.0"
+description = ""
+authors = ["adrianinfantes <infantesromeroadrian@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.9.7 || >3.9.7,<3.12"
+pandas = "^2.2.0"
+numpy = "^1.26.3"
+matplotlip = "^0.2"
+seaborn = "^0.13.2"
+scikit-learn = "^1.4.0"
+polars = "^0.20.6"
+openai = "0.28.1"
+streamlit = "^1.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
